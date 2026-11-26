@@ -1,0 +1,8 @@
+{
+  "feature.wynntils.advisorHud.name": "WynnLootrun Advisor",
+  "feature.wynntils.advisorHud.description": "Shows the next recommended Lootrun step.",
+  "feature.wynntils.advisorHud.overlay.advisor.name": "WynnLootrun Advisor",
+  "feature.wynntils.advisorHud.overlay.advisor.description": "Shows the next recommended Lootrun step.",
+  "key.category.wynnlootrun_advisor.controls": "WynnLootrun Advisor",
+  "key.wynnlootrun_advisor.open": "Open WynnLootrun Advisor"
+}

@@ -1,0 +1,39 @@
+plugins {
+    id 'net.fabricmc.fabric-loom-remap' version '1.14.10'
+}
+version = '1.0.7'
+group = 'dev.wynnlootrun'
+repositories {
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+}
+dependencies {
+    minecraft 'com.mojang:minecraft:1.21.11'
+    mappings loom.officialMojangMappings()
+    modImplementation 'net.fabricmc:fabric-loader:0.18.5'
+    modImplementation 'net.fabricmc.fabric-api:fabric-api:0.141.3+1.21.11'
+    modImplementation "maven.modrinth:wynntils:${providers.gradleProperty('wynntilsArtifact').getOrElse('YKGt6mmN')}"
+}
+fabricApi {
+    configureTests {
+        createSourceSet = true
+        modId = 'wynnlootrun_advisor_gametest'
+        enableGameTests = false
+        enableClientGameTests = true
+    }
+}
+tasks.matching { it.name == 'runClientGameTest' && it instanceof JavaExec }.configureEach {
+    if (providers.gradleProperty('gameTestJava').isPresent()) {
+        executable = providers.gradleProperty('gameTestJava').get()
+    }
+}
+tasks.withType(JavaCompile).configureEach {
+    options.release = 21
+    options.encoding = 'UTF-8'
+}
+tasks.register('deterministicTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'dev.wynnlootrun.advisor.EngineTest'
+}
+check.dependsOn deterministicTest
+tasks.named('test') { enabled = false }

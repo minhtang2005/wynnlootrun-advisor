@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "wynnlootrun_advisor",
+  "version": "1.0.7",
+  "name": "WynnLootrun Advisor",
+  "description": "Local, read-only tactical advice for visible Lootrun options.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.wynnlootrun.advisor.AdvisorClient"] },
+  "mixins": ["wynnlootrun-advisor.mixins.json"],
+  "depends": {
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "0.141.3+1.21.11",
+    "wynntils": ["4.2.18", "4.2.19"]
+  }
+}

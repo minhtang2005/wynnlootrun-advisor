@@ -1,0 +1,64 @@
+BOON	Persnickety	0	Khi đã được offer Blue hoặc Purple Beacon $> 20$ lần trong run
+BOON	Picky Looter	0	Mỗi lần được offer Yellow Beacon
+BOON	Heavensent	0	Cho mỗi Beacon được offer
+BOON	Slowrunner	0	Khi timer còn $< 6$ phút (360s)
+BOON	Clockworker	0	Cho mỗi phút đang còn trên timer
+BOON	Looter	0	Cho mỗi 4 item được offer từ Chest
+BOON	Serendipity	0	Mỗi lần mở 1 Chest
+BOON	Bad Omen	0	Mỗi lần nhận 1 Curse
+BOON	Midas Touch	0	Mỗi lần nhận 1 Boon
+BOON	Killstreak	0	Trong 60s mỗi khi hạ 10 Mobs (reset duration mỗi lần kill)
+BOON	Persistent Champion	0	Mỗi lần hoàn thành 1 Challenge
+BOON	Patient Champion	0	Khi đạt 20 Challenges hoàn thành
+BOON	Parsimonious	0	Nhận ngay theo mỗi 10 item đã thấy từ Chest từ đầu run
+BOON	Madman	0	Nhận ngay theo số Curse hiện có
+BOON	Lightbringer	0	Nhận ngay theo số Boon hiện có
+BOON	Mob Slaughter	0	Nhận ngay theo mỗi 10 Mobs đã giết từ đầu run
+BOON	Retrograde Champion	0	Nhận ngay theo số Challenge đã hoàn thành từ đầu run
+MISSION	High Roller	95	+1 End Reward Reroll
+MISSION	King's Court	92	Thêm vĩnh viễn +1 Crimson Beacon vào pool
+MISSION	Sacrificial Ritual	90	Sau mỗi Challenge: tiêu 1 Pull để nhận +3 Challenges
+MISSION	Redemption	88	+1 End Reward Sacrifice
+MISSION	Route Indigo	87	Purple & Blue bị ẩn (obscured) nhưng luôn Greatly Empowered (+2 Tiers)
+MISSION	Porphyrophobia	86	Được offer Violet bị +6 Curses. Purple Beacons cho x2 Pulls
+MISSION	Beleza Pura	84	Khi có Aqua trong bộ offer, toàn bộ các beacon còn lại nhận +1 Tier
+MISSION	Exorcist	80	Violet Beacons xóa (cleanse) Curse thay vì cộng Curse
+MISSION	Orphion's Grace	79	Toàn bộ Boons mạnh hơn 50% (multiplicative)
+MISSION	Complete Chaos	79	Sau mỗi Challenge, nhận thêm 1 phần thưởng Beacon ngẫu nhiên (trừ Grey/DarkGrey/Crimson; chỉ ra White nếu chưa lấy)
+MISSION	Cleansing Greed	78	Mở 1 Flying Chest xóa 1 Curse
+MISSION	Materialism	77	Mọi Challenge spawn thêm 2 Flying Chests khi xong
+MISSION	Balancing Act	77	Xóa 2 Curses mỗi Challenge (ưu tiên loại Curse đang có số lượng nhiều nhất)
+MISSION	High Spirits	76	+50% Vibrancy Chance
+MISSION	Radiant Hunter	76	Giết Radiant Challenge mob nhận +1 Pull (max 5/chal). Xóa 1 Rad Chance mỗi 15 Pulls kiếm được
+MISSION	Knife Edge	76	Sau Challenge nhận +(7 - Remaining) Pulls (tối thiểu 0)
+MISSION	Training Arc	75	Mỗi +60s timer nhận được cộng +1 Pull cho Violet kế tiếp (Max +15)
+MISSION	Backup Beat	75	Mỗi +300s cộng vào timer nhận +1 Beacon Reroll (yêu cầu timer $\le 15$m lúc kích hoạt)
+MISSION	Jester's Trick	74	Mỗi 25 item từ Flying Chests nhận random: +3 Pulls, +1 Chal, +1–2 Curse, hoặc +60s
+MISSION	Ostinato	74	Lấy trùng loại Boon nhận +2 Pull/duplicate, nhưng giảm 50% Potency mỗi loại trùng
+MISSION	Optimism	73	Beacon bị reroll sẽ không xuất hiện lại trong interlude đó (trừ khi hết lựa chọn)
+MISSION	Gourmand	72	Nhận +3 Beacon Choices khi dùng Beacon Reroll (Max 6, reset khi vào challenge)
+MISSION	Inner Peace	72	Curses yếu đi 33% (trừ thẳng vào baseline)
+MISSION	Chronokinesis	71	Non-flying chest cho +1 Pull, trừ 10s (+5s/chest). Hoàn thành challenge giảm phạt -15s
+MISSION	Interest Scheme	68	Mỗi 3 Pulls nhận được thêm +1 Flying Chest cho Yellow tiếp theo (Max +15)
+MISSION	Equilibrium	66	Nhận Curse tăng +100% Potency cho Boon kế tiếp (Max +600%)
+MISSION	Thrill Seeker	66	+1 Pull mỗi Red Challenge (+1 mỗi 6 chal, max +3). Reset nếu lấy Green Beacon
+MISSION	Opal Offering	64	Sau khi nhận Curse, tiêu thụ 1 Boon cho +1 Pull (+2 thêm mỗi 50% Potency trên 100%)
+MISSION	Requiem	62	Trong 15 phút tiếp theo, vô hiệu hóa hoàn toàn Enemy Scaling và Curses
+MISSION	Temporal Spur	61	Sau Challenge, tiêu 120s để random +3 Pulls, +1 Chal, hoặc 2–3 Flying Chests
+MISSION	Brass Tacks	60	Sau khi lấy Orange Beacon, xóa 2 Curses cho mỗi Beacon Choice hiện có (tối đa 12 Curses)
+MISSION	Stasis	58	Timer ngừng chạy khi đang chọn Beacon (Max 5m, hủy nếu disconnect/đổi class)
+MISSION	Hoarder	55	Mở 1 non-flying chest spawn 1 Flying Chest sau challenge kế (Max 4)
+TRIAL	All In	95	12 Challenge kế: Hiệu ứng Curse nhân đôi (200%) → Cuối run: đổi mỗi End Reward Sacrifice thành +3 End Reward Rerolls
+TRIAL	Treasury Bill	93	Mất 1 Pull mỗi 40s cho tới khi đạt Current Pulls + 25 → Tăng +60% Current Pulls ngay khi hoàn thành
+TRIAL	Chronotrigger	90	12 Challenge kế: Không thể nhận thời gian bằng mọi cách → Hoàn trả toàn bộ thời gian mất; Green Beacon trừ thời gian và tăng +1.5% Pulls mỗi 120s mất
+TRIAL	Adrenaline Junkie	86	Đến khi kiếm +30 Pulls: mất 100% Potency từ 1 Boon ngẫu nhiên mỗi 15s interlude → +2 End Reward Rerolls
+TRIAL	Hubris	85	12 Challenge kế: Chết (hoặc /kill) sẽ kết thúc run ngay lập tức → +1 End Reward Reroll & +1 End Reward Sacrifice
+TRIAL	Imperitia	84	Đến khi kiếm +25 Pulls: Mana cost của spell tăng +5 mỗi challenge hoàn thành (additive, không giảm bởi Int/IDs) → +2 End Reward Sacrifices
+TRIAL	Warmth Devourer	83	Đến khi kiếm +25 Pulls: Tiêu hao 3 Challenges sau mỗi Challenge → +1 End Reward Reroll & +1 End Reward Sacrifice
+TRIAL	Ultimate Sacrifice	82	12 Challenge kế: Toàn bộ Boons bị vô hiệu hóa → +2 End Reward Sacrifices
+TRIAL	Dying Light	80	Đến khi đạt +800% tổng active Boon Potency: Boon tụt -5% Potency / 5s → Rainbow Beacons cho +1 End Reward Sacrifice
+TRIAL	Monochromokopia	78	Đến khi kiếm +30 Pulls: Beacon hoàn thành bị Obscured trong 7 challenges → Thêm +1 White, +1 Grey, +1 Dark Grey vào pool
+TRIAL	Side Hustle	76	Đến khi mở 30 chests: Bắt đầu/xong/fail challenge ép timer về 75s → +2 End Reward Rerolls
+TRIAL	Lights Out	75	Đến khi giết 25 Radiant Challenge Mobs: nhận +2 Radiance Chance Curses mỗi challenge → +3 Pulls mỗi Radiant Power/Chance Curse hiện có, sau đó cleanse sạch chúng
+TRIAL	Sprezzatura	74	Đến khi nhận +10 Curses: chịu sát thương nhận ít nhất 5% HP (+1%/chal), tối đa 1 lần / 0.1s → +1 End Reward Reroll mỗi 5 challenges hoàn thành trong trial (-1 mỗi lần chết)
+TRIAL	Gambling Beast	70	Sau mỗi Challenge: trừ 300s (+90s/chal) khỏi timer → Cuối run: +1 End Reward Reroll cho mỗi lần kích hoạt

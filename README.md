@@ -1,5 +1,7 @@
 # WynnLootrun Advisor 1.0.7
 
+**[Tải mod WynnLootrun Advisor 1.0.7 (.jar)](https://github.com/minhtang2005/wynnlootrun-advisor/releases/download/v1.0.7/WynnLootrunAdvisor-1.0.7.jar)**
+
 Mod Fabric phía máy khách cho Minecraft 1.21.11, Fabric API 0.141.3+1.21.11, Wynntils 4.2.18 hoặc 4.2.19 và Java 21. Mod đọc dữ liệu hiện trên client, tính điểm cục bộ và hiển thị lời khuyên trong Minecraft. Mọi thao tác gameplay do người chơi thực hiện.
 
 ## Cài đặt trong Modrinth
